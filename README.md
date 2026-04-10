@@ -116,7 +116,7 @@ Responsibilities:
 ## 💳 Payment Service
 
 Handles payment confirmation.
-
+**Database:** PostgreSQL
 Stores:
 
 * Payment reference
@@ -140,7 +140,7 @@ The **asynchronous backbone** of the system.
 ## 📧 Notification Service
 
 Consumes Kafka events and sends emails.
-
+**Database:** MongoDB
 * Listens for:
 
     * Order created
