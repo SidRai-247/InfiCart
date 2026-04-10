@@ -1,0 +1,6 @@
+server:
+  port: 8090
+spring:
+  data:
+    mongodb:
+      uri: mongodb://siddharth:siddharth@localhost:27017/customer?authSource=admin&authMechanism=SCRAM-SHA-256

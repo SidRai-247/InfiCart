@@ -1,0 +1,27 @@
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build folders
+target/
+build/
+out/
+
+# Dependency caches
+node_modules/   # (if any frontend later)
+
+# Env files
+.env
+
+# Docker
+*.pid
+
+# Misc
+*.class
